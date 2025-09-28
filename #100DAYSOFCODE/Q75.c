@@ -28,7 +28,7 @@ int main() {
     }
 
     // Add matrices
-    for(i = 1; i < rows; i++) {
+    for(i = 0; i < rows; i++) {
         for(j = 0; j < cols; j++) {
             sum[i][j] = a[i][j] + b[i][j];
         }
@@ -36,7 +36,7 @@ int main() {
 
     // Print result
     printf("Sum of the two matrices:\n");
-    for(i = 1; i < rows; i++) {
+    for(i = 0; i < rows; i++) {
         for(j = 0; j < cols; j++) {
             printf("%d ", sum[i][j]);
         }
