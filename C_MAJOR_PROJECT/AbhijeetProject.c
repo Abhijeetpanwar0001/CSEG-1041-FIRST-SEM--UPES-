@@ -64,7 +64,7 @@ int main() {
 
                     booking.total_cost = booking.tickets * movies[i].price;
 
-                    // APPLY OFFERS
+                    
                     if (booking.tickets >= 3 && booking.tickets <= 5) {
                         booking.discount = booking.total_cost * 0.10;
                     } else if (booking.tickets > 5) {
